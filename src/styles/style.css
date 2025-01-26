@@ -1,0 +1,93 @@
+/* Importações do CSS e fontes*/
+@import url("cabecalho.css");
+@import url("sobre.css");
+@import url("educacao.css");
+@import url("trabalhos.css");
+@import url("rodape.css");
+
+/* Importações da fonte do site do Google*/ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playball&display=swap');
+
+/* Reset CSS*/ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Variáveis CSSS*/
+:root{
+    /* Cores*/
+    --cor-primaria:#352F44;
+    --cor-secundaria: #5C5470; 
+    --cor-tercearia: #B9B4C7;
+    --cor-quartenaria: #FAF0E6;
+
+    /* fontes*/
+    --font-documento: 'Inter', sans-serif;
+    --fonte-cursiva:'Playball', cursive;;
+    --tamanho-titulo-secao: 5.5em;
+    --tamanho-subtitulo-secao: 4em;
+    --tamanho-texto-secao: 2em;
+    
+}
+
+/* Atricutos do Body*/ 
+body{
+    width: 100%;
+    margin: auto;
+    color: var(--cor-quartenaria);
+    font-size: 18px;
+    font-family: var(--font-documento);
+    
+}
+.principal {
+    padding: 20px;
+    background-color: var(--cor-primaria);
+}
+
+/* Atributos da linhas das páginas*/ 
+.linhas .cabecalho-linha{
+    border-bottom: 1em solid var(--cor-quartenaria);
+}
+.linhas {
+    width: 99%;
+    margin: 2rem auto ;
+}
+/* Atribução às seções da página de forma geral*/ 
+.secao{
+    padding: 2em 0 ;
+    margin: 0,5em 0;
+}
+.secao-titulo, .secao-subtitulo{
+    font-size: var(--tamanho-titulo-secao);
+    font-weight: 400;
+    margin: 3% 0;
+    margin-left: 10%;
+    color: var(--cor-tercearia);
+}
+.secao-subtitulo{
+    font-size: var(--tamanho-subtitulo-secao);
+    text-align: center;
+    color: var(--cor-quartenaria);
+
+}
+/* Personalização da tag strong*/
+strong{
+    font-weight: 800;
+    color: var(--cor-tercearia);
+}
+.primeira-letra{
+    font-size: 2em;
+    margin-left: 5rem;
+    font-family: var(--fonte-cursiva);
+}
+.fonte-cursiva{
+    font-family: var(--fonte-cursiva);
+}
+.sobre-mim, .trabalhos{
+    background-color: var(--cor-secundaria);
+}
+.educacao, .rodape {
+    background-color: var(--cor-primaria);
+}

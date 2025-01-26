@@ -1,0 +1,47 @@
+.cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: end;
+   
+    margin: 20px 0;
+}
+.cabecalho-linha{
+    width: 100%;
+    align-self: baseline;
+}
+.cabecalho-links{
+    display: flex;
+    list-style: none;
+}
+.cabecalho-links-item{
+    text-decoration: none;
+    color: var(--cor-quartenaria);
+    padding: 1em;
+    font-size: var(--tamanho-texto-secao);
+}
+.cabecalho-links-item:hover {
+    color: var(--cor-tercearia);
+    text-decoration: underline;
+}
+.banner{
+    background-image:url("../img/Background.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.banner-titulo{
+    color: var(--cor-quartenaria);
+    font-weight: 800;
+    text-align: center;
+    font-size: 10em;
+    padding: 1.5em;
+}
+.banner-titulo:hover{
+    color: var(--cor-tercearia);
+}
+.banner-nome-portfolio{
+    font-size: 5em;
+    color: rgba(250, 240, 230, 0.5);
+    margin-left: 70%;
+    font-weight: 400;
+}

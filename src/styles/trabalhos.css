@@ -1,0 +1,33 @@
+.trabalhos-grade{
+    display: flex;
+    justify-content: space-evenly;
+    width: 72%;
+    margin: 0 auto;
+    background-color: var(--cor-tercearia);
+    border-radius: 3em;
+}
+.trabalhos-linha-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: auto;
+    padding: 1%;
+    margin: 15% auto;
+}
+/* Aumenta a figura 1.5 vezes e a destaca das demais*/
+.trabalhos-linha-item:hover{
+    flex-direction: row;
+    position: relative;
+    width: 150%;
+    height: auto;
+    border: 1em solid var(--cor-primaria);
+    border-radius: 2em;
+    background-color: var(--cor-primaria);
+}
+.trabalhos-software {
+    margin: 5% 0;
+    margin-left: 60%;
+}
+.trabalhos-software-item{
+    margin: 2% 5%
+}
